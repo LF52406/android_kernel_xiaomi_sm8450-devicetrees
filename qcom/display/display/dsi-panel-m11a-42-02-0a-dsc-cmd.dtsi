@@ -67,6 +67,8 @@
 				qcom,mdss-dsi-panel-clockrate = <1200000000>;
 				qcom,mdss-dsi-panel-jitter = <0x5 0x1>;
 				qcom,mdss-mdp-transfer-time-us = <7300>;
+				qcom,partial-update-enabled = "single_roi";
+				qcom,panel-roi-alignment = <1440 32 1440 32 1440 32>;
 				qcom,mdss-dsi-on-command = [
 					/* swire advance 1 frame */
 					39 00 00 40 00 00 06 F0 55 AA 52 08 00
@@ -295,6 +297,8 @@
 				qcom,mdss-dsi-panel-clockrate = <1200000000>;
 				qcom,mdss-dsi-panel-jitter = <0x5 0x1>;
 				qcom,mdss-mdp-transfer-time-us = <7300>;
+				qcom,partial-update-enabled = "single_roi";
+				qcom,panel-roi-alignment = <1440 32 1440 32 1440 32>;
 				qcom,mdss-dsi-on-command = [
 					/* swire advance 1 frame */
 					39 00 00 40 00 00 06 F0 55 AA 52 08 00
@@ -521,6 +525,8 @@
 				qcom,mdss-dsi-panel-clockrate = <1200000000>;
 				qcom,mdss-dsi-panel-jitter = <0x5 0x1>;
 				qcom,mdss-mdp-transfer-time-us = <7300>;
+				qcom,partial-update-enabled = "single_roi";
+				qcom,panel-roi-alignment = <1440 32 1440 32 1440 32>;
 				qcom,mdss-dsi-on-command = [
 					/* swire advance 1 frame */
 					39 00 00 40 00 00 06 F0 55 AA 52 08 00
